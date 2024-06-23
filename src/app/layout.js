@@ -8,6 +8,7 @@ function RootLayout({ children }) {
       <body>
         {children}
 
+        <footer>Page Rendered on {new Date().toLocaleString()}</footer>
       </body>
     </html>
   );
